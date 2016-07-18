@@ -19,7 +19,6 @@ $ curl -sS https://getcomposer.org/installer | php
 
 Next, update your composer.json and run `composer install`.
 
-=======
 ```json
 {
     "require": {
