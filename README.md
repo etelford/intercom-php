@@ -12,6 +12,13 @@ The recommended way to install intercom-php is through [Composer](https://getcom
 
 First, install Composer:
 
+```
+$ curl -sS https://getcomposer.org/installer | php
+```
+
+
+Next, update your composer.json and run `composer install`.
+
 =======
 ```json
 {
@@ -31,15 +38,6 @@ First, install Composer:
     }
 }
 
-```
-$ curl -sS https://getcomposer.org/installer | php
-```
-
-Next, install the latest intercom-php:
-
-```
-$ php composer.phar require intercom/intercom-php
-```
 
 Finally, you can include the files in your PHP script:
 
