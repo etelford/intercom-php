@@ -22,19 +22,15 @@ Next, update your composer.json and run `composer install`.
 ```json
 {
     "require": {
-      "intercom/intercom-php": "^2.0"
+        "intercom/intercom-php": "dev-master"
     },
     "repositories":
     [
-            {
-                "type": "vcs",
-                "url": "https://github.com/etelford/intercom-php55"
-            }
-    ],
-    "require":
-    {
-        "etelford/intercom-php55": "dev-master"
-    }
+        {
+            "type": "vcs",
+            "url": "https://github.com/etelford/intercom-php55"
+        }
+    ]
 }
 
 
