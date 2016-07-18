@@ -16,7 +16,18 @@ First, install Composer:
 ```json
 {
     "require": {
-      "etelford/intercom-php-55": "2.0.0"
+      "intercom/intercom-php": "^2.0"
+    },
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/etelford/intercom-php55"
+            }
+    ],
+    "require":
+    {
+        "etelford/intercom-php55": "dev-master"
     }
 }
 
