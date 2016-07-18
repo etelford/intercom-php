@@ -22,7 +22,7 @@ Next, update your composer.json and run `composer install`.
 ```json
 {
     "require": {
-        "intercom/intercom-php": "dev-master"
+        "etelford/intercom-php55": "dev-master"
     },
     "repositories":
     [
