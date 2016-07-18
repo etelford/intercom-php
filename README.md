@@ -32,7 +32,7 @@ Next, update your composer.json and run `composer install`.
         }
     ]
 }
-
+```
 
 Finally, you can include the files in your PHP script:
 
